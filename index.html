@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .card{
+            width: 200px;
+            
+        }
+        .card img{
+            height: 200px;
+        }
+       
+    </style>
 </head>
-<body>
-    <p>hello</p>
+<body class="container-fluid">
+    <dl class="mt-4">
+        <dd class="btn-group btn-toolbar">
+            <button class="btn btn-success bi bi-house">HOME</button>
+            <button class="btn btn-success bi bi-bell">ABOUT</button>
+            <button class="btn btn-success bi bi-cart3 position-relative"><span class="badge bg-danger position-absolute rounded rounded-circle">2</span></button>
+            <button class=" btn btn-success bi bi-person">contact</button>
+        </dd>
+    </dl>
+    
+    <main class="mt-4 d-flex">
+        <div class="card p-2 m-2 me-4 ">
+            <img src="public/images/IPHONE14.jpg " class="card-img-top">
+            <div class="card-header">
+                <h5 class="card-title text-warning">iphone 14</h5>
+                <p class="card-subtitle">price 65,999</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li class="text-primary">Green color</li>
+                    <li>128 gb </li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary bi bi-cart3 position-relative">Buy<span class="badge bg-warning rounded rounded-circle position-absolute">1</span></button>
+            </div>
+        </div>
+        <div class="card p-2 m-2 me-4">
+            <img src="public/images/iphone14red.jpg " class="card-img-top">
+            <div class="card-header">
+                <h5 class="card-title text-primary">iphone 13</h5>
+                <p class="card-subtitle">price 65,799</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li class="text-danger">red color</li>
+                    <li>128 gb </li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary bi bi-cart3 position-relative">Buy<span class="badge bg-success rounded rounded-circle position-absolute">1</span></button>
+            </div>
+        </div>
+        <div class="card p-2 m-2 ">
+            <img src="public/images/women-shopping.jpeg" class="card-img-top">
+            <div class="card-header">
+                <h5 class="card-title text-secondary">women fashion</h5>
+                <p class="card-subtitle">price 566</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li class="text-info">checks</li>
+                    <li>white </li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary bi bi-cart3 position-relative">Buy<span class="badge bg-success rounded rounded-circle position-absolute">1</span></button>
+            </div>
+        </div>
+    </main>
+        
+    
+            
+                <h1 class="text-danger">Alarts</h1>
+                <nav class="d-flex">
+            <div class="alert alert-secondary alert-dismissible w-25 border border-warning border-3 me-3">
+                <button data-bs-dismiss="alert" class="btn btn-close" ></button>
+                <h3 class="alert-title">Sankranthi offers</h3>
+                <img src="public/images/tv2.webp" width="100%" height="50%">
+                <p class="alert-subtitle"> 50% offer on electronics</p>
+                <a class="alert-link" href="https://www.amazon.in">more..</a>
+                <br>
+                <br>
+                <button data-bs-dismiss="alert" class="btn btn-success">ok</button>
+            </div>
+            <div class="alert alert-primary alert-dismissible w-25 border border-danger border-4 me-3">
+                <button data-bs-dismiss="alert" class="btn btn-close" ></button>
+                <h3 class="alert-title">Sankranthi offers</h3>
+                <img src="public/images/tv3.webp" width="100%" height="50%">
+                <p class="alert-subtitle"> 50% offer on electronics</p>
+                <a class="alert-link" href="https://www.flipkart.com">more..</a>
+                <br>
+                <br>
+                <button data-bs-dismiss="alert" class="btn btn-success">ok</button>
+            </div>
+            <div class="alert alert-secondary alert-dismissible w-25 border border-warning border-3 me-3">
+                <button data-bs-dismiss="alert" class="btn btn-close" ></button>
+                <h3 class="alert-title">Sankranthi offers</h3>
+                <img src="public/images/tv2.webp" width="100%" height="50%">
+                <p class="alert-subtitle"> 50% offer on electronics</p>
+                <a class="alert-link" href="https://www.amazon.in">more..</a>
+                <br>
+                <br>
+                <button data-bs-dismiss="alert" class="btn btn-success">ok</button>
+            </div>
+            <div class="alert alert-primary alert-dismissible w-25 border border-danger border-4 ">
+                <button data-bs-dismiss="alert" class="btn btn-close" ></button>
+                <h3 class="alert-title">Sankranthi offers</h3>
+                <img src="public/images/tv3.webp" width="100%" height="50%">
+                <p class="alert-subtitle"> 50% offer on electronics</p>
+                <a class="alert-link" href="https://www.flipkart.com">more..</a>
+                <br>
+                <br>
+                <button data-bs-dismiss="alert" class="btn btn-success">ok</button>
+            </div>
+        </nav>
+            
+           
+        
+        
+            <script src="node_modules/jquery/dist/jquery.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            
+            
+    
     
 </body>
 </html>
